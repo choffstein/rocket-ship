@@ -7,12 +7,12 @@ Make sure you fill in the identity and credential parts with your AWS key and se
 
 ## ~/.pallet/config.clj
 
-(defpallet
-  :services
-    {:aws-ec2 {:provider "aws-ec2"
-               :identity ""
-               :credential ""}}
-  :environment {:user {:username "jenkins"
-                       :public-key-path "/Users/jenkins/.ssh/ec2_rsa.pub"
-		       :private-key-path "/Users/jenkins/.ssh/ec2_rsa"}})
+    (defpallet
+        :services
+            {:aws-ec2 {:provider "aws-ec2"
+                       :identity ""
+                       :credential ""}}
+        :environment {:user {:username "jenkins"
+                      :public-key-path "/Users/jenkins/.ssh/ec2_rsa.pub"
+		      :private-key-path "/Users/jenkins/.ssh/ec2_rsa"}})
 
