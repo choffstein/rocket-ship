@@ -11,12 +11,10 @@
                  [org.jclouds/jclouds-all "1.0.0"]
                  [org.jclouds.driver/jclouds-jsch "1.0.0"]]
 
-  :dev-dependencies [org.cloudhoist/pallet-lein "0.4.1"]
+  :dev-dependencies [[org.cloudhoist/pallet-lein "0.4.1"]
                      [vmfest "0.2.3"]]
 
   :repositories {"sonatype"
                  "http://oss.sonatype.org/content/repositories/releases"
                  "sonatype-snapshots"
-                 "http://oss.sonatype.org/content/repositories/snapshots"}
-
-  :aot [rocket-ship.core])
+                 "http://oss.sonatype.org/content/repositories/snapshots"})
