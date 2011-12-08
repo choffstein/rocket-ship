@@ -11,6 +11,8 @@ This config.clj file should also be in the .pallet directory of /Users/jenkins.
 
 Make sure you fill in the identity and credential parts with your AWS key and secret-key.
 
+	lein plugin install rocket-ship 1.0.0-SNAPSHOT
+
 ## ~/.pallet/config.clj
 
     (defpallet

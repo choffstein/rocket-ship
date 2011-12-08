@@ -1,7 +1,7 @@
 (ns pallet.task.rocket-deploy
  (:use (clojure.contrib strint core))
  (:require
-   [servlet-test.ops.nodes :as webdeploy-nodes]
+   [rocket-ship.ops.nodes :as webdeploy-nodes]
    pallet.core
    pallet.utils
    [org.jclouds.compute :as jcompute]
