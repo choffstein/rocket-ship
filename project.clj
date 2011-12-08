@@ -1,8 +1,7 @@
 (defproject rocket-ship "1.0.0-SNAPSHOT"
   :description "FIXME: write"
-  :dependencies [[org.clojure/clojure "1.2.0"]
-                 [org.clojure/clojure-contrib "1.2.0"]
-                 [org.cloudhoist/pallet "0.6.3-SNAPSHOT"]
+  :dependencies [[org.clojure/clojure "1.3.0"]
+                 [org.cloudhoist/pallet "0.6.4"]
                  [org.cloudhoist/automated-admin-user "0.5.1-SNAPSHOT"]
                  [org.cloudhoist/etc-default "0.5.0"]
                  [org.cloudhoist/java "0.5.1"]
